@@ -6,6 +6,10 @@ export default class App extends Component {
       <div>
         app
         123 fri +
+        <div>
+         19.42  fri+ 
+        </div>
+        
       </div>
     )
   }
