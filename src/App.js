@@ -8,7 +8,7 @@ export default class App extends Component {
         123 fri +
         
         <div>
-          20.11 fri +
+          20.27 fri +
           并且删了19.50的
         </div>
       </div>
