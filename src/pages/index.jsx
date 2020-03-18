@@ -5,7 +5,7 @@ export const Home =loadable({
   loader:_=>import("./home"),
   loading:Loading
 })
-export const Classifu =loadable({
+export const Classify =loadable({
   loader:_=>import("./classify"),
   loading:Loading
 })
