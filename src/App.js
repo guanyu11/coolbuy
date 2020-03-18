@@ -6,6 +6,7 @@ export default class App extends Component {
       <div>
         app
         123 fri +
+        陈航19:42风很大
       </div>
     )
   }
