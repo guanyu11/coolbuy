@@ -1,0 +1,1 @@
+export const VendorIndexType="VENDOR_INDEX_TYPE"

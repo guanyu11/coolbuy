@@ -1,0 +1,2 @@
+const ArticleMainType="ARTICLE_MAINTEXT_TYPE"
+const ArticleAboutType="ARTICLE_ABOUTITEM_TYPE"

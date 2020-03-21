@@ -1,0 +1,1 @@
+export const HomeBannerType="HOME_BANNER_TYPE"

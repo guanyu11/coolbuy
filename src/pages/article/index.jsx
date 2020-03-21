@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-
+import AboutItem from "./aboutItem"
+import MainText from "./mainText"
 class Article extends Component {
     render() {
+        console.log(this.props,"Article")
         return (
             <div>
-               Article 
+               <head></head>
+               <MainText  ref="MainText"></MainText>
+               <AboutItem  ref="AboutItem"></AboutItem>
             </div>
         )
     }

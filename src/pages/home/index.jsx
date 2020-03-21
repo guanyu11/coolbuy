@@ -1,12 +1,19 @@
 import React, { Component } from 'react'
-
-class Find extends Component {
+import {connect} from "react-redux"
+import { mapStateToProps, mapDispatchToProps } from './connect'
+import Banner from "@components/swiper"
+@connect(mapStateToProps,mapDispatchToProps)
+class Home extends Component {
     render() {
+        let {banner}=this.props
         return (
-            <div>
-               Home 
-            </div>
+            <Banner banner={banner}>
+            </Banner>
         )
     }
+    componentDidMount(){
+        console.log("componentDidMount home")
+        this.props.handleGetHomeBanner()
+    }
 }
-export default Find
+export default Home

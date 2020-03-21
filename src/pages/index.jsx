@@ -21,6 +21,14 @@ export const Find =loadable({
   loader:_=>import("./find"),
   loading:Loading
 })
+export const CareChoose =loadable({
+  loader:_=>import("./find/careChoose"),
+  loading:Loading
+})
+export const HotArticle =loadable({
+  loader:_=>import("./find/hotArticle"),
+  loading:Loading
+})
 export const Vendor =loadable({
   loader:_=>import("./vendor"),
   loading:Loading

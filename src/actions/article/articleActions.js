@@ -1,0 +1,1 @@
+import {ArticleAboutType,ArticleMainType} from "./articleTypes"
